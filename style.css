@@ -13,6 +13,7 @@
     src: url(fonts/64eda5e581cb8e58ed55dea5_apercu-medium.woff2);
 }
 
+/* boilerplate of css  */
 * {
     box-sizing: border-box;
     padding: 0;
@@ -25,6 +26,7 @@ body {
     height: 100%;
 }
 
+/* added nav */
 nav {
     display: flex;
     align-items: center;
@@ -79,4 +81,58 @@ nav .n{
     to {
         rotate: 360deg;
     }
+}
+
+/*  added style of page1 */
+.page1 {
+    width: 100%;
+    height: 60%;
+    /* background-color: #c57805; */
+    display: flex;
+    justify-content: space-between;
+    padding: 0 4%;
+    align-items: center;
+}
+
+.page1_left {
+    width: 40%;
+    height: 100%;
+    /* background-color: #edcba9; */
+}
+
+.page1_right {
+    margin-top: 17%;
+    width: 20%;
+    height: 30%;
+    /* background-color: #edcba9; */
+}
+
+.page1_left>h1 {
+    font-size: 6em;
+    font-family: abc;
+    line-height: 1.2em;
+}
+
+.page1_left>h1>svg {
+    width: 60px;
+    height: 60px;
+    animation-name: move;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+.page1_right>h4 {
+    font-size: 1.1em;
+    font-weight: 400;
+    line-height: 1.2em;
+    padding-bottom: 5%;
+}
+
+.page1_right>button {
+    font-family: xyz;
+    border: none;
+    padding: 12px 16px;
+    border-radius: 10px;
+    font-weight: 400;
 }
