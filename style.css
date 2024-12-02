@@ -1,0 +1,82 @@
+@font-face {
+    font-family: abc;
+    src: url(fonts/6479b994523a6279a03d4da7_Siaga-Bold.woff2);
+}
+
+@font-face {
+    font-family: xyz;
+    src: url(fonts/64eda5e5fdd71ddd3dbbf609_apercu-regular.woff2);
+}
+
+@font-face {
+    font-family: pqr;
+    src: url(fonts/64eda5e581cb8e58ed55dea5_apercu-medium.woff2);
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2% 4%;
+}
+
+.items {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+nav .n{
+    width: 40px;
+    height: 40px;
+    animation-name: move;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+.items h4 {
+    font-family: xyz;
+    border: 1px solid black;
+    padding: 10px 14px;
+    border-radius: 10px;
+    font-weight: 400;
+}
+
+
+.items h4:hover {
+    color: white;
+    background-color: black;
+    font-family: xyz;
+    border: 1px solid black;
+    padding: 10px 14px;
+    border-radius: 10px;
+    font-weight: 500;
+}
+
+#items_h4 {
+    text-decoration: underline;
+    font-weight: 550;
+}
+
+@keyframes move {
+    from {
+        rotate: 0;
+    }
+
+    to {
+        rotate: 360deg;
+    }
+}
