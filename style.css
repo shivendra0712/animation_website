@@ -370,3 +370,91 @@ nav .n{
     border-radius: 10px;
     font-weight: 350;
  }
+
+   /* added page8 of styling  */
+
+
+   .page8{
+    width: 100%;
+    height: 100%;
+    /* background-color: hsl(37, 44%, 82%); */
+    padding: 0 4%;
+    padding-top: 6%;
+ }
+
+ .page8_text{
+    width: 100%;
+    height: 10%;
+    /* background-color: blueviolet; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2%;
+    margin-bottom: 2%;
+ }
+ .page8_text_left{
+    width: 20%;
+    height: 100%;
+ }
+ .page8_text_right button{
+    font-family: xyz;
+    border: 1px solid black;
+    padding: 12px 20px;
+    border-radius: 10px;
+    font-weight: 350;
+    background-color: black;
+    color: white;
+ }
+
+ .page8_div{
+    width: 100%;
+    height: 70%;
+    /* background-color: blueviolet; */
+    display: flex;
+    justify-content: space-between;
+
+ }
+
+ .page8_div_image{
+    width: 24%;
+    height: 100%;
+    /* background-color: #dfd9e4; */
+    border: none;
+    border-radius: 30px;
+ }
+ .page8_div_image_top{
+    width: 100%;
+    height: 65%;
+    /* background-color: #7bd845; */
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+ }
+ .page8_div_image_bottom{
+    width: 100%;
+    height: 35%;
+    padding: 10%;
+    background-color: hsl(99, 32%, 86%);
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+ }
+ .page8_div_image_bottom > h2{
+    padding-bottom: 20px;
+ }
+
+
+.page8_div_image1_top{
+     background-image: url(https://cdn.prod.website-files.com/648884be5f32a12e5da2392f/64cac464ae61273a7c937ded_BRAND%20STORY_Over-Nan-p-800.jpg);
+}
+.page8_div_image2_top{
+    background-image: url(https://cdn.prod.website-files.com/648884be5f32a12e5da2392f/64e51e8b3be191fdc49c321d_NaN_Merkidentiteit-p-800.jpg);
+}
+.page8_div_image3_top{
+    background-image: url(https://cdn.prod.website-files.com/648884be5f32a12e5da2392f/64e51e7766e8d5682bf6ee25_NaN_Webdesign-p-800.jpg);
+}
+.page8_div_image4_top{
+    background-image: url(https://cdn.prod.website-files.com/648884be5f32a12e5da2392f/64bbb43e292b8b8352068a48_NaN_A%20la%20Carte-p-800.jpg);
+}
